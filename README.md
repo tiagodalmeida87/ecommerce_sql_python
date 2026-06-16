@@ -1,4 +1,4 @@
-# **Análise de Vendas de E-commerce com SQL e Python: Do Dado Bruto ao Insight de Negócio**
+# 🚀 **Análise de Vendas de E-commerce com SQL e Python: Do Dado Bruto ao Insight de Negócio**
 
 ![Capa do Projeto](https://github.com/tiagodalmeida87/ecommerce_sql_python/blob/main/result/dashboard_final_pro.jpg)
 

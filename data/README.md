@@ -1,14 +1,14 @@
-# README - Diretório `data`
+# Guia técnico para replicar análise
 
 Este diretório contém os artefatos e a documentação técnica detalhada do projeto de **Análise de Vendas de E-commerce com SQL e Python**. Aqui, você encontrará as instruções para replicar a análise, entender a lógica por trás das consultas SQL e do processamento em Python, e interpretar os insights de negócio gerados.
 
-## Visão Geral
+## 🔍 Visão Geral
 O objetivo deste projeto é demonstrar a capacidade de transformar dados brutos de vendas de e-commerce em informações estratégicas e acionáveis. Através da integração de SQL para consultas robustas e Python para manipulação e visualização, o projeto simula um cenário real de análise de dados, focando na resolução de problemas de negócio e na geração de valor.
 
-## Estrutura do Projeto
+## ⚙️ Estrutura do Projeto
 O diretório `data` é o coração analítico do projeto, contendo os scripts e os resultados intermediários que alimentam as análises. Embora o arquivo CSV original não esteja incluído por questões de tamanho ou privacidade, os outputs gerados a partir dele são a base para a compreensão do fluxo de trabalho.
 
-## Parte 1: Análise de Dados com SQL
+## 📊 Parte 1: Análise de Dados com SQL
 Nesta etapa, utilizamos **SQL** para realizar consultas e agregações diretamente sobre os dados de vendas. Para simular um ambiente de banco de dados leve e reprodutível, os dados foram carregados em um banco de dados **SQLite em memória** via Python. As queries foram projetadas para responder a perguntas de negócio fundamentais:
 
 ### Perguntas de Negócio e Queries SQL:
@@ -71,7 +71,7 @@ Nesta etapa, utilizamos **SQL** para realizar consultas e agregações diretamen
     ```
     *   **Objetivo:** Analisar tendências sazonais e o desempenho de vendas ao longo do tempo.
 
-## Parte 2: Processamento e Visualização com Python
+## 📊 Parte 2: Processamento e Visualização com Python
 Após as consultas SQL, a análise prossegue com **Python**, utilizando a biblioteca `pandas` para manipulação de dados e `matplotlib`/`seaborn` para visualização. Esta etapa valida os resultados do SQL e os transforma em gráficos compreensíveis.
 
 ### Tarefas em Python:
@@ -88,7 +88,7 @@ Após as consultas SQL, a análise prossegue com **Python**, utilizando a biblio
 4.  **Exportação de Tabela Resumo:**
     *   Uma tabela resumo de vendas é exportada para um arquivo CSV, pronta para ser integrada a outras ferramentas de BI ou para relatórios gerenciais.
 
-## Parte 3: Insights de Negócio
+## 💡 Parte 3: Insights de Negócio
 Os insights gerados a partir desta análise são cruciais para a tomada de decisões estratégicas:
 
 *   **Concentração de Receita:** Produtos como 
@@ -97,7 +97,7 @@ Notebook, Mesa e Monitor são os principais motores de faturamento, exigindo ate
 *   **Clientes de Alto Valor:** A identificação dos clientes com maior ticket médio permite a criação de estratégias de fidelização e ofertas personalizadas para maximizar o Lifetime Value (LTV).
 *   **Performance de Vendedores:** A análise individual dos vendedores pode subsidiar programas de incentivo, treinamento e realinhamento de metas.
 
-## Como Replicar
+## 📚 Como Replicar
 Para replicar este projeto, você precisará de um ambiente Python com as bibliotecas `pandas`, `matplotlib` e `seaborn` instaladas. O código original foi desenvolvido em um Jupyter Notebook e pode ser executado em um ambiente como o Visual Studio Code.
 
 1.  **Instale as dependências:**
@@ -114,4 +114,4 @@ Para replicar este projeto, você precisará de um ambiente Python com as biblio
     python generate_charts.py
     ```
 
-Este README.md serve como um guia técnico para entender e replicar as análises, além de fornecer o contexto de negócio e os insights derivados do projeto.
+📜 Este README.md serve como um guia técnico para entender e replicar as análises, além de fornecer o contexto de negócio e os insights derivados do projeto.
